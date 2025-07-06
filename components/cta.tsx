@@ -41,8 +41,8 @@ export default function CTA() {
           className="w-full h-full object-cover object-center opacity-100"
         />
       </div>
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-12 shadow-xl">
+      <div className="md:container mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-4 pt-12 shadow-xl">
           {/* Left */}
           <div className="flex flex-col justify-center text-center md:text-left">
             <div className="w-20 h-20 bg-[#1F382B] rounded-full flex items-center justify-center mx-auto md:mx-0 mb-6">

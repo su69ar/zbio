@@ -13,8 +13,10 @@ export default function Header() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
+            <a href="/" className="flex items-center space-x-2">
             <img src="/ZBIO_black.png" alt="ZBIO Logo" className="h-10 w-auto" />
             <span className="text-2xl font-bold text-[#1F382B]">ZBIO</span>
+            </a>
           </div>
 
           {/* Desktop Nav */}
