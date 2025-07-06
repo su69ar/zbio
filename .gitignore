@@ -27,4 +27,4 @@ yarn-error.log*
 next-env.d.ts
 
 #video
-/public/zbio.mp4
+public/zbio.mp4
