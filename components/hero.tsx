@@ -22,10 +22,10 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full px-6 py-2 mb-8">
             <Recycle className="w-5 h-5 text-[#1F382B]" />
-            <span className="text-[#1F382B] font-medium ">Bali's First Circular Food Ecosystem</span>
+            <span className="text-[#1F382B] font-medium ">From Waste to Worth</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight text-header">
+          <h1 className="text-[42px] md:text-7xl font-bold text-gray-900 mb-6 leading-tight ">
           Bali's First <span className="text-[#1F382B] ">Circular Food</span> Ecosystem <span className="text-[#1F382B]"></span>
           </h1>
 
