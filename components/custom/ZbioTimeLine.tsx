@@ -17,7 +17,7 @@ export function ZbioTimeline() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="collect2.png"
+              src="collect.webp"
               alt="startup template"
               width={500}
               height={500}
