@@ -61,10 +61,10 @@ export default function OrbitingProcess() {
 
   return (
     <section className=" bg-transparent backdrop-blur-md  overflow-hidden">
-      <div className="container text-center">
+      <div className=" text-center">
       <div
         ref={orbitRef}
-        className="relative w-[100vw] max-w-[350px] h-[400px] mx-auto sm:w-[400px] sm:h-[450px]"
+        className="relative w-[100vw] max-w-[350px] h-[400px] mx-auto sm:w-[350px] sm:h-[350px]"
       >
           {/* Center circle */}
           <div className="absolute top-1/2 left-1/2 w-24 h-24 bg-[#1F382B] rounded-full flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 shadow-lg z-10 overflow-hidden">
