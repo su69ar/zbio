@@ -3,9 +3,9 @@ import './globals.css'
 import './fonts.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'ZBIO',
+  description: "Bali's First Circular Food Ecosystem",
+  generator: 'Bali Micro Technology',
 }
 
 export default function RootLayout({
