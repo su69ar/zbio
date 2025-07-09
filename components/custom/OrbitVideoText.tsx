@@ -15,7 +15,7 @@ export default function OrbitVideoText() {
       ></div>
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto">
-        <div className="flex justify-center">
+        <div className="flex justify-center sm:ml-[-20px]">
           <OrbitingProcess />
         </div>
         <div className="flex justify-center">
