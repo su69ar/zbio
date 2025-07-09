@@ -33,7 +33,7 @@ export default function Philosophy3Cols() {
             </h2>
           </div>
           <div className="text-base text-gray-700 dark:text-gray-300 leading-relaxed">
-            <p>
+            <p className="text-[16px]">
               Through our closed-loop system, we convert waste into animal feed
               and organic fertilizer, which supports local farms that, in turn,
               grow fresh, organic produce that comes right back to your kitchen.

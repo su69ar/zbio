@@ -61,7 +61,7 @@ export default function OrbitingProcess() {
 
   return (
     <section className=" bg-transparent backdrop-blur-md  overflow-hidden">
-      <div className=" text-center">
+      <div className="lg:p-4 text-center">
       <div
         ref={orbitRef}
         className="relative w-[100vw] max-w-[350px] h-[400px] mx-auto sm:w-[350px] sm:h-[350px]"

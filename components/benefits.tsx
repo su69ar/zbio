@@ -36,8 +36,8 @@ export default function Benefits() {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Along with ZBIO Hospitality Can Lead Change
           </h2>
-          <div className="max-w-4xl mx-auto ">
-            <p className="text-lg text-gray-700 leading-relaxed">
+          <div className="max-w-8xl mx-auto ">
+            <p className="text-[16px] text-gray-700 leading-relaxed">
               The hospitality industry is uniquely positioned to transform today's waste challenges into opportunities
               for innovation and impact. By adopting circular practices, your property can move beyond traditional
               solutions like composting or pig farms—which, while helpful, often lack transparency, traceability, and

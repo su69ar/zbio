@@ -47,7 +47,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
 
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-xl">
+        <p className="text-neutral-700 text-[16px] dark:text-neutral-300  max-w-xl">
         A fully circular food waste management system designed for hospitality and F&B businesses — turning waste into a resource, enriching soil, and bringing nutrient-rich ingredients back to your table.
         </p>
         </div>

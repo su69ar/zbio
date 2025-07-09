@@ -29,7 +29,7 @@ export default function Statistics() {
             Bali's <span className="text-[#779952]"> Organic Waste </span>Crisis
           </h2>
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
+            <p className="text-[16px]  text-white/90 leading-relaxed">
               Bali generates a significant amount of waste each year, much of it organic and harmful to the environment
               when left unmanaged. A major contributor is the hospitality sector, including hotels, resorts, and
               restaurants. With a 2027 goal to manage waste sustainably, hospitality businesses must take action now.
