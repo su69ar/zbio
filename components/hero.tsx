@@ -32,17 +32,21 @@ export default function Hero() {
           
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
             <Button size="lg" className="bg-[#1F382B] hover:bg-[#1F382B]/90 text-white px-8 py-4 text-lg">
-              Start Your Journey
+              <a href="#contact">  Start Your Journey </a>
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
+           
+            
             <Button
               size="lg"
               variant="outline"
               className="border-[#1F382B] text-[#1F382B] hover:bg-[#1F382B] hover:text-white px-8 py-4 text-lg bg-transparent"
             >
-              Learn More
+              <a href="#about">Learn More</a>
             </Button>
+
           </div>
         </div>
       </div>

@@ -32,7 +32,7 @@ export default function CTA() {
   }
 
   return (
-    <section className="relative py-20 px-4 bg-gradient-to-r from-[#1F382B]/10 to-emerald-100/50 overflow-hidden">
+    <section id="contact" className="relative py-20 px-4 bg-gradient-to-r from-[#1F382B]/10 to-emerald-100/50 overflow-hidden">
       {/* Background image layer */}
       <div className="absolute inset-0 z-0">
         <img
@@ -42,7 +42,7 @@ export default function CTA() {
         />
       </div>
       <div className="md:container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-4 pt-12 shadow-xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-white/30 backdrop-blur-md border border-white/40 rounded-3xl p-4 lg:p-14 md:p-6 sm:p-6 pt-12 shadow-xl">
           {/* Left */}
           <div className="flex flex-col justify-center text-center md:text-left">
             <div className="w-20 h-20 bg-[#1F382B] rounded-full flex items-center justify-center mx-auto md:mx-0 mb-6">
@@ -52,7 +52,7 @@ export default function CTA() {
             <p className="text-xl text-[#1F382B] mb-8">
               Ready to transform your waste into worth? Join Bali's circular food ecosystem and make a real impact.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-[#1F382B] hover:bg-[#1F382B]/90 text-white px-8 py-4 text-lg">
                 Start Your Journey
                 <ArrowRight className="ml-2 w-5 h-5" />
@@ -64,7 +64,7 @@ export default function CTA() {
               >
                 Schedule a Call
               </Button>
-            </div>
+            </div> */}
           </div>
 
           {/* Right - Contact Form */}

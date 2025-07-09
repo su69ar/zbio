@@ -109,6 +109,20 @@ const config: Config = {
       backdropBlur: {
         xs: '2px',
       },
+      width: {
+        slide: '40vw',
+        'slide-sm': '80vw',
+      },
+      height: {
+        slide: '60vw',
+        'slide-sm': '80vw',
+      },
+    },
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
     },
   },
   plugins: [require('tailwindcss-animate')],

@@ -1,5 +1,7 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
+import { ProcessCardHover } from "./ProcessCardHover";
+
 
 export function ZbioTimeline() {
   const data = [
@@ -36,6 +38,7 @@ export function ZbioTimeline() {
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
           The waste is processed either on-site (via modular composting units) or at our specialized facilities. Through natural decomposition and innovative bioconversion, it’s transformed into nutrient-rich compost or high-protein animal feed.
           </p>
+          <ProcessCardHover />
           <div className="grid grid-cols-2 gap-4">
             <img
               src="organic-waste-process.jpg"
