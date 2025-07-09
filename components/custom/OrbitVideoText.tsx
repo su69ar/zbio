@@ -19,7 +19,7 @@ export default function OrbitVideoText() {
           <OrbitingProcess />
         </div>
         <div className="flex justify-center">
-          <ZbioVideoText text="ZBIO SOLUTION" src="zbio.mp4" />
+          <ZbioVideoText text="ZBIO SOLUTION" src="zbiovideo.webm" />
         </div>
       </div>
     </section>
