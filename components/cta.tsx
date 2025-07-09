@@ -36,7 +36,7 @@ export default function CTA() {
       {/* Background image layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/bali-farmers4.png"
+          src="/bali-farmers4.webp"
           alt="Bali Farmers"
           className="w-full h-full object-cover object-center opacity-100"
         />
