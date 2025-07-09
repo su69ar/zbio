@@ -22,7 +22,7 @@ export default function Statistics() {
       <div className="absolute top-0 left-0 w-full h-full bg-[#1f382b]/50  z-10" />
 
       {/* ✅ Main Content */}
-      <div className="relative z-20 container mx-auto">
+      <div className="relative z-20 lg:container mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
