@@ -20,7 +20,7 @@ export default function Solution() {
     {
       icon: Package,
       title: "HARVEST",
-      description: "is delivered back to you as clean, traceable, nutrient-rich ingredients.",
+      description: "is delivered back to you as traceable food ingredients",
     },
   ]
 

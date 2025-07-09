@@ -28,8 +28,8 @@ export default function Philosophy3Cols() {
               <span className="text-[#3b5c42] font-bold">Food Waste </span>
               Into{" "}
               <span className="text-[#3b5c42] font-bold">
-                Regenerative Resources.
-              </span>
+                Regenerative Resources
+              </span>.
             </h2>
           </div>
           <div className="text-base text-gray-700 dark:text-gray-300 leading-relaxed">
@@ -55,7 +55,7 @@ export default function Philosophy3Cols() {
           <Animated3DPin
             title="Neither Should We"
             href="#zbio-solution"
-            heading="Let’s turn waste into wisdom, just like nature does."
+            heading="Let’s turn waste into worth, just like nature does."
             description="We should imitate nature by creating regenerative systems where waste becomes resource."
             image="/neither.jpg"
           />

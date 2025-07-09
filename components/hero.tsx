@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Video Background */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        src="zbio.mp4" // Replace with your actual video URL later
+        src="zbiovideo.webm" // Replace with your actual video URL later
         autoPlay
         loop
         muted
@@ -22,11 +22,11 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full px-6 py-2 mb-8">
             <Recycle className="w-5 h-5 text-[#1F382B]" />
-            <span className="text-[#1F382B] font-medium ">From Waste to Worth</span>
+            <span className="text-[#1F382B] font-medium lg:text-[24px] sm:text-[20px]">From Waste to Worth</span>
           </div>
 
           <h1 className="text-[42px] md:text-7xl font-bold text-gray-900 mb-6 leading-tight ">
-          Bali's First <span className="text-[#1F382B] ">Circular Food</span> Ecosystem <span className="text-[#1F382B]"></span>
+          Bali's First <span className="text-[#1F382B] ">Circular Food Ecosystem</span>  <span className="text-[#1F382B]"></span>
           </h1>
 
           

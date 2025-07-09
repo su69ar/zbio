@@ -10,21 +10,22 @@ export default function FoodEcosystem() {
     },
     {
       icon: Package,
-      title: "Supplies",
-      description: "We provide sealed, odor-proof food waste buckets.",
+      title: "Food Waste Buckets",
+      description: "We provide sealed, odor-proof food waste buckets with clean bucket replacement every time we collect",
       background: "/supplies.png",
     },
-    {
-      icon: Calendar,
-      title: "Scheduling",
-      description: "Guaranteed regular pickup & monthly transparent impact report.",
-      background: "/schedule.jpg",
-    },
+    
     {
       icon: Truck,
       title: "Collection",
-      description: "Reliable, regular service with clean bucket replacement every time.",
+      description: "Guaranteed regular pickup schedule",
       background: "/collection.png",
+    },
+    {
+      icon: Calendar,
+      title: "Impact Report",
+      description: "Monthly transparent report to showcase your impact",
+      background: "/schedule.jpg",
     },
   ];
 
@@ -49,7 +50,7 @@ export default function FoodEcosystem() {
               }}
             >
               {/* Overlay */}
-              <div className="absolute inset-0 bg-white/50  z-0" />
+              <div className="absolute inset-0 bg-white/80  z-0" />
 
               {/* Content */}
               <div className="relative z-10 p-6">

@@ -8,13 +8,14 @@ import FoodEcosystem from "@/components/FoodEcosystem"
 import Benefits from "@/components/benefits"
 import Testimonials from "@/components/testimonials"
 import CTA from "@/components/cta"
-import Footer from "@/components/footer"
+// import Footer from "@/components/footer"
 import { Orbiting } from "@/components/custom/orbiting"
 import AboutZbioText from "@/components/AboutZbioText"
 import Philosophy3Cols from "@/components/philosophy-3cols"
 import { Animated3DPin } from "@/components/custom/my3DPin"
 import { ZbioTimeline } from "@/components/custom/ZbioTimeLine"
 import OrbitVideoText from "@/components/custom/OrbitVideoText"
+import Footer2 from "@/components/footer2"
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
       <Benefits />
       <Testimonials />
       <CTA />
-      <Footer />
+      <Footer2 />
     </div>
   )
 }

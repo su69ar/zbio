@@ -3,7 +3,7 @@ export default function Statistics() {
     { number: '1.6M+', label: 'Tons of waste produced annually in Bali' },
     { number: '40%', label: 'Of organic waste produced by hospitality sector' },
     { number: '70%', label: 'Of waste in Bali is organic' },
-    { number: '2027', label: 'Bali aims to manage waste sustainably' },
+    { number: '2026', label: 'Organic waste can no longer go to landfills (TPA)' },
   ]
 
   return (

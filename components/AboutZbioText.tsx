@@ -23,8 +23,8 @@ export default function AboutZbioText() {
       ZBIO is a Complete Ecosystem that Transforms {" "}
       <Highlight className="text-white dark:text-white">
       
-      Your Food Waste Into Regenerative Resources.
-      </Highlight>
+      Your Food Waste Into Regenerative Resources
+      </Highlight><span className="text-black">.</span>
     </motion.h1>
   )
 }

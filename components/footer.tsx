@@ -3,13 +3,18 @@ import { Leaf, Facebook, Instagram, Linkedin, Twitter, Heart } from "lucide-reac
 export default function Footer() {
   return (
     <footer className="bg-[#1F382B] text-white py-12 px-4">
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Intro */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center">
+              {/* <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center">
                 <Leaf className="w-6 h-6 text-[#1F382B]" />
+              </div> */}
+              <div className="flex items-center">
+                <a href="/" className="flex items-center ">
+                <img src="/ZBIO_black.png" alt="ZBIO Logo" className="h-20 w-auto" />
+                </a>
               </div>
               <span className="text-2xl font-bold">ZBIO</span>
             </div>
@@ -34,7 +39,7 @@ export default function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-gray-300">
               <li><a href="#" className="hover:text-white transition-colors">Waste Collection</a></li>
@@ -42,10 +47,10 @@ export default function Footer() {
               <li><a href="#" className="hover:text-white transition-colors">Organic Fertilizer</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Animal Feed</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Company */}
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-gray-300">
               <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
@@ -53,7 +58,7 @@ export default function Footer() {
               <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         {/* Copyright */}

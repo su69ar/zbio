@@ -31,7 +31,7 @@ export function ZbioTimeline() {
       content: (
         <div>
            <p className="mb-8 text-xs font-bold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
-          On-site or at our facility,transforming waste intohighly nutritious fertilizeror animal feed.
+          On-site or at our facility, transforming waste into highly nutritious fertilizer or animal feed.
           </p>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
           The waste is processed either on-site (via modular composting units) or at our specialized facilities. Through natural decomposition and innovative bioconversion, it’s transformed into nutrient-rich compost or high-protein animal feed.
@@ -60,7 +60,7 @@ export function ZbioTimeline() {
       content: (
         <div>
           <p className="mb-8 text-xs font-bold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
-          Local farmlands through sustainable agriculture.
+          Local farmlands through sustainable agriculture that generate social impact.
           </p>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
           We channel these outputs back to local farmers. The compost restores soil health, reduces reliance on chemical fertilizers, and supports sustainable agriculture that nurtures both the environment and local communities.
@@ -105,7 +105,7 @@ export function ZbioTimeline() {
       content: (
         <div>
           <p className="mb-8 text-xs font-bold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
-          Is delivered back to you as clean, traceable, nutrient-rich ingredients.
+          Is delivered back to you as traceable food ingredients.
           </p>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
           In return, farmers produce clean, traceable, nutrient-rich crops and ingredients — delivered straight back to our partners in the hospitality sector, completing the circular loop.
