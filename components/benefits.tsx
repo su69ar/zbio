@@ -31,7 +31,7 @@ export default function Benefits() {
   ];
 
   return (
-    <section id="benefits" className="py-16 px-4 bg-gradient-to-r from-[#1F382B]/5 to-emerald-50/50">
+    <section id="benefits" className="py-16 px-4 bg-gradient-to-b from-white via-white to-[#1F382B] overflow-hidden">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
