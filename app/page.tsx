@@ -34,7 +34,7 @@ export default function Home() {
       <OrbitVideoText />
       <FoodEcosystem />
       <Benefits />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <CTA />
       <Footer2 />
     </div>

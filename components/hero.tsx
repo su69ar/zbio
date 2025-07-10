@@ -31,23 +31,28 @@ export default function Hero() {
 
           
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            
-            <Button size="lg" className="bg-[#1F382B] hover:bg-[#1F382B]/90 text-white px-8 py-4 text-lg">
-              <a href="#contact">  Start Your Journey </a>
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-           
-            
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-[#1F382B] text-[#1F382B] hover:bg-[#1F382B] hover:text-white px-8 py-4 text-lg bg-transparent"
-            >
-              <a href="#about">Learn More</a>
-            </Button>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-md mx-auto mt-8">
+            <a href="#contact">
+              <Button
+                size="lg"
+                className="w-full bg-[#1F382B] hover:bg-[#1F382B]/90 text-white px-8 py-4 text-lg flex items-center justify-center"
+              >
+                Start Your Journey <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </a>
 
+            <a href="#about">
+              <Button
+                size="lg"
+                variant="outline"
+                className="w-full border-[#1F382B] text-[#1F382B] hover:bg-[#1F382B] hover:text-white px-8 py-4 text-lg bg-transparent flex items-center justify-center"
+              >
+                Learn More
+              </Button>
+            </a>
           </div>
+
+
         </div>
       </div>
     </section>

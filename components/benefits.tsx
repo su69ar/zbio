@@ -1,5 +1,6 @@
 import { Shield, MapPin, Target, Users, Leaf, Megaphone } from "lucide-react"
 import Image from "next/image";
+import Testimonials from "./testimonials";
 
 export default function Benefits() {
   const benefits = [
@@ -65,6 +66,7 @@ export default function Benefits() {
             </div>
           ))}
         </div>
+        <Testimonials />
       </div>
     </section>
   )
