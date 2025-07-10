@@ -9,7 +9,7 @@ export function ZbioTimeline() {
       title: "Collect",
       content: (
         <div>
-          <p className="mb-8 text-xs font-bold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
+          <p className="mb-8 text-[16px] font-semibold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
             We collect your organic food waste.
           </p>
           <p className="mb-8 text-[16px] font-normal text-neutral-800  dark:text-neutral-200">
@@ -32,7 +32,7 @@ export function ZbioTimeline() {
       title: "Process",
       content: (
         <div>
-           <p className="mb-8 text-xs font-bold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
+           <p className="mb-8 text-[16px] font-semibold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
           On-site or at our facility, transforming waste into highly nutritious fertilizer or animal feed.
           </p>
           <p className="mb-8 text-[16px] font-normal text-neutral-800  dark:text-neutral-200">
@@ -62,7 +62,7 @@ export function ZbioTimeline() {
       title: "Regenerate",
       content: (
         <div>
-          <p className="mb-8 text-xs font-bold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
+          <p className="mb-8 text-[16px] font-semibold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
           Local farmlands through sustainable agriculture that generate social impact.
           </p>
           <p className="mb-4 text-[16px] font-normal text-neutral-800  dark:text-neutral-200">
@@ -107,7 +107,7 @@ export function ZbioTimeline() {
       title: "Harvest",
       content: (
         <div>
-          <p className="mb-8 text-xs font-bold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
+          <p className="mb-8 text-[16px] font-semibold text-[#3A5B42] md:text-2xl dark:text-neutral-200">
           Is delivered back to you as traceable food ingredients.
           </p>
           <p className="mb-4 text-[16px] font-normal text-neutral-800 dark:text-neutral-200">
