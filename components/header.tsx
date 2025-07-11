@@ -26,7 +26,7 @@ export default function Header() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <a href="#testimonials">
+            <a href="#contact">
               <Button className="bg-[#1F382B] hover:bg-[#1F382B]/90 text-white">Get Started</Button>
             </a>
           </div>
@@ -50,7 +50,7 @@ export default function Header() {
       <div className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="p-6 flex flex-col space-y-6 pt-24">
           <NavLinks onClick={() => setIsOpen(false)} mobile />
-          <a href="#testimonials" onClick={() => setIsOpen(false)}>
+          <a href="#contact" onClick={() => setIsOpen(false)}>
             <Button className="w-full bg-[#1F382B] text-white">Get Started</Button>
           </a>
         </div>

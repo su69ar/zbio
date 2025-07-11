@@ -1,5 +1,7 @@
 import { Star } from "lucide-react"
-import ZbioClientLogo from "./custom/ZbioClientLogo"
+// import ZbioClientLogo from "./custom/ZbioClientLogo"
+import SectionLogos from "./custom/SectionLogos"
+import { hotels, restaurants } from '@/lib/zbioclient'
 
 export default function Testimonials() {
   const testimonials = [
@@ -19,11 +21,17 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials" className="pt-16 px-4">
-      <div className="container mx-auto">
+      <div className="w-full lg:container mx-auto">
         <div className="text-center ">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 ">Our Clients</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1F382B] mb-6">Our Clients</h2>
+          <p className="text-[16px]">We work with hotels and restaurants that choose to go beyond traditional waste management. Through our closed-loop system, their food waste becomes a regenerative resource — giving back to the farms and communities that support them.</p>
         </div>
-        <ZbioClientLogo />
+        <SectionLogos title="Hotels" logos={hotels} />
+        <SectionLogos title="Restaurants" logos={restaurants} />
+
+
+
+        {/* <ZbioClientLogo /> */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white/30 backdrop-blur-md border border-white/40 rounded-2xl p-6 shadow-xl">
@@ -37,6 +45,9 @@ export default function Testimonials() {
             </div>
           ))}
         </div> */}
+
+
+
       </div>
     </section>
   )

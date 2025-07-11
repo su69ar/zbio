@@ -17,6 +17,8 @@ import { ZbioTimeline } from "@/components/custom/ZbioTimeLine"
 import OrbitVideoText from "@/components/custom/OrbitVideoText"
 import Footer2 from "@/components/footer2"
 import { ProcessCarousel } from "@/components/custom/ProcessCarousel"
+import SectionLogos from "@/components/custom/SectionLogos"
+import { hotels, restaurants } from '@/lib/zbioclient';
 
 export default function Home() {
   return (

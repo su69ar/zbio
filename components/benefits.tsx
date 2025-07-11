@@ -31,10 +31,11 @@ export default function Benefits() {
   ];
 
   return (
-    <section id="benefits" className="py-16 px-4 bg-gradient-to-b from-white via-white to-[#1F382B] overflow-hidden">
-      <div className="container mx-auto">
+    // <section id="benefits" className="py-16 px-4 bg-gradient-to-b from-white via-white to-[#1F382B] overflow-hidden">
+    <section id="benefits" className="py-16 px-4 bg-white overflow-hidden">
+      <div className="lg:container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1F382B] mb-6">
             Along with ZBIO Hospitality Can Lead Change
           </h2>
           <div className="max-w-8xl mx-auto ">
