@@ -1,47 +1,46 @@
-import { NextResponse } from 'next/server'
+import type { NextApiRequest, NextApiResponse } from 'next'
 import nodemailer from 'nodemailer'
 
-export async function POST(request: Request) {
-  const data = await request.json()
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  if (req.method !== 'POST')
+    return res.status(405).json({ message: 'Method not allowed' })
 
-  const { name, email, phone, guests, checkIn, checkOut, message } = data
-  // Create a transporter object using SMTP
-  const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: parseInt(process.env.SMTP_PORT || '587'),
-    secure: process.env.SMTP_SECURE === 'true',
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
-    },
-    requireTLS: true,
-  })
+  const { name, email, message } = req.body
 
-  // Set up email data
-  const mailOptions = {
-    from: `"${name}" <${email}>`,
-    to: process.env.RECIPIENT_EMAIL,
-    subject: `New Inquiry Graha Ayoe - ${name}`,
-    text: `
-      Name: ${name}
-      Email: ${email}
-      Phone: ${phone}
-      Guests: ${guests}
-      Check-in Date: ${checkIn}
-      Check-out Date: ${checkOut}
-      Message: ${message}
-    `,
+  if (!name || !email || !message) {
+    return res.status(400).json({ message: 'All fields are required.' })
   }
 
   try {
-    // Send the email
-    await transporter.sendMail(mailOptions)
-    return NextResponse.json({ message: 'Email sent successfully!' })
+    const transporter = nodemailer.createTransport({
+      host: 'smtp.gmail.com', // Atau SMTP lain
+      port: 587,
+      secure: false,
+      auth: {
+        user: process.env.EMAIL_USERNAME,
+        pass: process.env.EMAIL_PASSWORD,
+      },
+    })
+
+    await transporter.sendMail({
+      from: `"ZBIO Contact Form" <${process.env.EMAIL_USERNAME}>`,
+      to: process.env.CONTACT_RECEIVER_EMAIL, // Email tujuan
+      subject: `New Message from ${name}`,
+      html: `
+        <h2>Contact Message</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
+    })
+
+    return res.status(200).json({ message: 'Message sent successfully!' })
   } catch (error) {
-    console.error('Error sending email:', error)
-    return NextResponse.json(
-      { error: 'Failed to send email. Please try again later.' },
-      { status: 500 }
-    )
+    console.error('Email send failed:', error)
+    return res.status(500).json({ message: 'Failed to send message.' })
   }
 }
