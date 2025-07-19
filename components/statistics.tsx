@@ -11,7 +11,7 @@ export default function Statistics() {
       {/* ✅ Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        src="/bali-waste.mp4"
+        src="/bali-waste.webm"
         autoPlay
         loop
         muted

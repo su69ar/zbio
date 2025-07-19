@@ -7,7 +7,7 @@ export default function Footer2() {
         {/* Main Content */}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
           {/* Left: Logo & Title */}
-          <div className='flex flex-col md:flex-row items-center md:items-start gap-4'>
+          <div className='flex flex-col md:flex-row items-center md:items-center gap-4'>
             <a href='/' className='flex-shrink-0'>
               <img
                 src='/ZBIO-white.png'
@@ -27,7 +27,7 @@ export default function Footer2() {
               our complete circular ecosystem. From waste to worth, for your
               business, for Bali, and for the planet.
             </p> */}
-            <div className='flex justify-center md:justify-start space-x-4'>
+            <div className='flex justify-center md:justify-end space-x-4'>
               {[Facebook, Instagram, Linkedin, Twitter].map((Icon, idx) => (
                 <div
                   key={idx}
