@@ -10,21 +10,16 @@ export function ProcessCardHover() {
 }
 export const projects = [
   {
-    title: "Process Option 1",
-    description:
-      "On-site at your hotel, restaurant, F&B factory",
-
+    title: 'On-site',
+    description: 'On-site at your hotel, restaurant, F&B factory',
   },
   {
-    title: "Process Option 2",
-    description:
-      "at ZBio's facility",
-
+    title: 'ZBio',
+    description: "at ZBio's facility",
   },
   {
-    title: "Process Option 3",
+    title: 'Plasma Sites',
     description:
-      "At our plasma sites (livestock farms & waste management sites)",
-
+      'At our plasma sites (livestock farms & waste management sites)',
   },
-];
+]
