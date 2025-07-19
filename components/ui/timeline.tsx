@@ -40,7 +40,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className='w-full bg-white dark:bg-neutral-950 font-sans md:px-10 pt-[50px]'
       ref={containerRef}>
       <div className='max-w-7xl mx-auto px-4 md:px-8 lg:px-10'>
-        <h2 className='text-7xl font-bold text-[#1f382b]'>ZBIO SOLUTION</h2>
+        <h2 className='text-5xl md:text-7xl font-bold text-[#1f382b]'>
+          ZBIO SOLUTION
+        </h2>
         {/* <h2 className='text-lg md:text-4xl mb-[-80px] text-black dark:text-white max-w-4xl'>
           <ZbioVideoText text='ZBIO SOLUTION' />
         </h2> */}

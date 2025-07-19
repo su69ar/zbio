@@ -47,7 +47,7 @@ export default function FoodEcosystem() {
               className='rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow border border-white/20 bg-white'>
               {/* Gambar + Icon di atas */}
               <div
-                className='relative h-40 flex items-center justify-center'
+                className='relative h-60 flex items-center justify-center'
                 style={{
                   backgroundImage: `url(${feature.background})`,
                   backgroundSize: 'cover',

@@ -1,33 +1,35 @@
 'use client'
 import { useEffect, useRef } from 'react'
 import { Leaf, Recycle, PackageCheck, Salad } from 'lucide-react'
-import { VideoText } from "@/components/magicui/video-text";
-import Image from 'next/image';
+import { VideoText } from '@/components/magicui/video-text'
+import Image from 'next/image'
 
 const steps = [
   {
     title: 'Collect',
-    icon: <Recycle className="w-6 h-6" />,
+    icon: <Recycle className='w-6 h-6' />,
     step: 1,
     description: 'Your organic food waste.',
   },
   {
     title: 'Process',
-    icon: <PackageCheck className="w-6 h-6" />,
+    icon: <PackageCheck className='w-6 h-6' />,
     step: 2,
-    description: 'On-site or at our facility, transforming waste into highly nutritious fertilizer or animal feed.',
+    description:
+      'On-site or at our facility, transforming waste into highly nutritious fertilizer or animal feed.',
   },
   {
     title: 'Regenerate',
-    icon: <Leaf className="w-6 h-6" />,
+    icon: <Leaf className='w-6 h-6' />,
     step: 3,
     description: 'Local farmlands through sustainable agriculture.',
   },
   {
     title: 'Harvest',
-    icon: <Salad className="w-6 h-6" />,
+    icon: <Salad className='w-6 h-6' />,
     step: 4,
-    description: 'Is delivered back to you as clean, traceable, nutrient-rich ingredients.',
+    description:
+      'Is delivered back to you as clean, traceable, nutrient-rich ingredients.',
   },
 ]
 
@@ -60,20 +62,19 @@ export default function OrbitingProcess() {
   }, [])
 
   return (
-    <section className=" bg-transparent backdrop-blur-md  overflow-hidden">
-      <div className="lg:p-4 text-center">
-      <div
-        ref={orbitRef}
-        className="relative w-[100vw] max-w-[350px] h-[400px] mx-auto sm:w-[350px] sm:h-[350px]"
-      >
+    <section className=' bg-transparent backdrop-blur-md overflow-hidden'>
+      <div className='p-10 lg:p-4 text-center'>
+        <div
+          ref={orbitRef}
+          className='relative w-[100vw] max-w-[350px] h-[400px] mx-auto sm:w-[350px] sm:h-[350px]'>
           {/* Center circle */}
-          <div className="absolute top-1/2 left-1/2 w-24 h-24 bg-[#1F382B] rounded-full flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 shadow-lg z-10 overflow-hidden">
+          <div className='absolute top-1/2 left-1/2 w-24 h-24 bg-[#1F382B] rounded-full flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 shadow-lg z-10 overflow-hidden'>
             <Image
-              src="/ZBIO-white.png"
-              alt="ZBIO Logo"
+              src='/ZBIO-white.png'
+              alt='ZBIO Logo'
               width={60}
               height={60}
-              className="object-contain"
+              className='object-contain'
             />
           </div>
 
@@ -81,14 +82,16 @@ export default function OrbitingProcess() {
           {steps.map((step, i) => (
             <div
               key={step.step}
-              className="orbit-item absolute w-32 transform -translate-x-1/2 -translate-y-1/2"
-              style={{ transition: 'transform 0.3s ease' }}
-            >
-              <div className="bg-white shadow-lg rounded-full border w-32 h-32 border-white/50 backdrop-blur-sm p-5 flex flex-col items-center justify-center text-[#1F382B]">
-                <div className="w-10 h-10 flex items-center justify-center bg-[#1F382B] text-white rounded-full mb-2">
+              className='orbit-item absolute w-32 transform -translate-x-1/2 -translate-y-1/2 '
+              style={{ transition: 'transform 0.3s ease' }}>
+              <div className='bg-white shadow-lg rounded-full border w-32 h-32 border-[#1F382B] backdrop-blur-md p-5 flex flex-col items-center justify-center text-[#1F382B]'>
+                <div className='w-10 h-10 flex items-center justify-center bg-[#1F382B] text-white rounded-full mb-2'>
                   {step.icon}
                 </div>
-                <div className="font-semibold text-[12px]"><span>{step.step}. </span>{step.title}</div>
+                <div className='font-semibold text-[12px]'>
+                  <span>{step.step}. </span>
+                  {step.title}
+                </div>
               </div>
             </div>
           ))}
