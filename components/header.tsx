@@ -104,7 +104,7 @@ function NavLinks({
         Benefits
       </a>
       <a href='#testimonials' className={className} onClick={onClick}>
-        Testimonials
+        Clients
       </a>
     </>
   )
