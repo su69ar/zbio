@@ -1,6 +1,10 @@
 import { Facebook, Instagram, Linkedin, Twitter, Heart } from 'lucide-react'
 
 export default function Footer2() {
+  const icon = [
+    { id: 1, icon: Instagram, link: 'https://www.instagram.com/zbio.asia/' },
+    { id: 2, icon: Linkedin, link: 'https://www.linkedin.com/company/z.bio/' },
+  ]
   return (
     <footer className='bg-[#1F382B] text-white py-12 px-4 overflow-x-hidden'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
@@ -28,12 +32,15 @@ export default function Footer2() {
               business, for Bali, and for the planet.
             </p> */}
             <div className='flex justify-center md:justify-end space-x-4'>
-              {[Facebook, Instagram, Linkedin, Twitter].map((Icon, idx) => (
-                <div
-                  key={idx}
+              {icon.map((item) => (
+                <a
+                  key={item.id}
+                  href={item.link}
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className='w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors cursor-pointer'>
-                  <Icon className='w-5 h-5' />
-                </div>
+                  <item.icon className='w-5 h-5' />
+                </a>
               ))}
             </div>
           </div>
