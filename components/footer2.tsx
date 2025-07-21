@@ -1,8 +1,12 @@
-import { Facebook, Instagram, Linkedin, Twitter, Heart } from 'lucide-react'
+import { Instagram, Linkedin, Heart } from 'lucide-react'
 
 export default function Footer2() {
   const icon = [
-    { id: 1, icon: Instagram, link: 'https://www.instagram.com/zbio.asia/' },
+    {
+      id: 1,
+      icon: Instagram,
+      link: 'https://www.instagram.com/zco.bio?igsh=dW9jbjQweTlwNG9m',
+    },
     { id: 2, icon: Linkedin, link: 'https://www.linkedin.com/company/z.bio/' },
   ]
   return (
