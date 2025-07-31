@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     title: 'ZBio',
-    description: "at ZBio's facility",
+    description: "At ZBio's facility",
   },
   {
     title: 'Plasma Sites',

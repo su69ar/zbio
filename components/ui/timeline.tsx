@@ -37,16 +37,18 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   return (
     <div
       id='zbio-solution'
-      className='w-full bg-white dark:bg-neutral-950 font-sans md:px-10 pt-[50px]'
+      className='container dark:bg-neutral-950 font-sans md:px-10 pt-[100px]'
       ref={containerRef}>
-      <div className='max-w-7xl mx-auto px-4 md:px-8 lg:px-10'>
-        <h2 className='text-5xl md:text-7xl font-bold text-[#1f382b]'>
-          ZBIO SOLUTION
-        </h2>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16'>
+        <div className='max-w-7xl mx-auto px-4 md:px-8 lg:px-10'>
+          <h2 className='text-5xl md:text-7xl font-bold text-[#1f382b]'>
+            ZBIO SOLUTION
+          </h2>
+        </div>
         {/* <h2 className='text-lg md:text-4xl mb-[-80px] text-black dark:text-white max-w-4xl'>
           <ZbioVideoText text='ZBIO SOLUTION' />
         </h2> */}
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 pt-[20px]'>
+        <div className='max-w-7xl mx-auto px-4 md:px-8 lg:px-10'>
           <p className='text-neutral-700 text-[16px] dark:text-neutral-300  max-w-xl'>
             A fully circular food waste management system designed for
             hospitality and F&B businesses — turning waste into a resource,
@@ -55,7 +57,6 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           </p>
         </div>
       </div>
-
       <div
         ref={ref}
         className='relative max-w-7xl mx-auto pb-1 mt-[-40px] lg:mt-[-140px] md:mt-[-140px]'>

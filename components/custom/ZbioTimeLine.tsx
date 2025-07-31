@@ -17,14 +17,21 @@ export function ZbioTimeline() {
             efficient waste retrieval with minimal disruption to your
             operations.
           </p>
-          <div className='grid grid-cols-2 gap-4'>
-            <img
-              src='/timeline/organic-waste-collect.jpg'
-              alt='startup template'
-              width={500}
-              height={500}
-              className='h-60 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60'
-            />
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='/timeline/organic-waste-collect.jpg'
+                alt='Organic waste collection'
+                className='h-full w-full object-cover'
+              />
+            </div>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='/zbio_collection.jpeg'
+                alt='ZBIO collection process'
+                className='h-full w-full object-cover'
+              />
+            </div>
           </div>
         </div>
       ),
@@ -38,27 +45,27 @@ export function ZbioTimeline() {
             nutritious fertilizer or animal feed.
           </p>
           <p className='mb-8 text-[16px] font-normal text-neutral-800  dark:text-neutral-200'>
-            The waste is processed either on-site (via modular composting units)
-            or at our specialized facilities. Through natural decomposition and
-            innovative bioconversion, it’s transformed into nutrient-rich
-            compost or high-protein animal feed.
+            Your food waste is processed either on-site, at ZBio’s facility, or
+            at our plasma sites. Through natural decomposition and innovative
+            bioconversion, we transform your food waste into high quality animal
+            feed and organic fertilizer.
           </p>
           <ProcessCardHover />
-          <div className='grid grid-cols-2 gap-4'>
-            <img
-              src='/timeline/process.webp'
-              alt='feature template'
-              width={500}
-              height={500}
-              className='h-60 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60'
-            />
-            {/* <img
-              src='organic-waste-process2.jpg'
-              alt='bento template'
-              width={500}
-              height={500}
-              className='h-60 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60'
-            /> */}
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='/timeline/process_1.png'
+                alt='Organic waste collection'
+                className='h-full w-full object-cover'
+              />
+            </div>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='/timeline/process_2.png'
+                alt='ZBIO collection process'
+                className='h-full w-full object-cover'
+              />
+            </div>
           </div>
         </div>
       ),
@@ -77,36 +84,21 @@ export function ZbioTimeline() {
             sustainable agriculture that nurtures both the environment and local
             communities.
           </p>
-
-          <div className='grid grid-cols-2 gap-4'>
-            {/* <img
-              src="bali-farmers.jpg"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="bali-farmers2.jpg"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            /> */}
-            <img
-              src='bali-farmers3.jpg'
-              alt='bento template'
-              width={500}
-              height={500}
-              className='h-60 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60'
-            />
-            <img
-              src='bali-farmers4.webp'
-              alt='cards template'
-              width={500}
-              height={500}
-              className='h-60 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60'
-            />
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='bali-farmers3.jpg'
+                alt='Organic waste collection'
+                className='h-full w-full object-cover'
+              />
+            </div>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='bali-farmers4.webp'
+                alt='ZBIO collection process'
+                className='h-full w-full object-cover'
+              />
+            </div>
           </div>
         </div>
       ),
@@ -124,35 +116,21 @@ export function ZbioTimeline() {
             hospitality sector, completing the circular loop.
           </p>
 
-          <div className='grid grid-cols-2 gap-4'>
-            <img
-              src='/timeline/harvest_1.webp'
-              alt='hero template'
-              width={500}
-              height={500}
-              className='h-60 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60'
-            />
-            <img
-              src='/timeline/harvest_2.jpg'
-              alt='feature template'
-              width={500}
-              height={500}
-              className='h-60 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60'
-            />
-            {/* <img
-              src="bali-farmers3.jpg"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            />
-            <img
-              src="bali-farmers4.png"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
-            /> */}
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='/timeline/harvest_1.webp'
+                alt='Organic waste collection'
+                className='h-full w-full object-cover'
+              />
+            </div>
+            <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>
+              <img
+                src='/timeline/harvest_2.jpg'
+                alt='ZBIO collection process'
+                className='h-full w-full object-cover'
+              />
+            </div>
           </div>
         </div>
       ),

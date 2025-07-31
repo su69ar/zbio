@@ -5,6 +5,7 @@ export const hotels = [
   { name: 'Keramas', imageUrl: '/client/hotels/lv8.png' },
   { name: 'Lv8', imageUrl: '/client/hotels/novotel.png' },
   { name: 'Novotel', imageUrl: '/client/hotels/Wirasana.png' },
+  { name: 'Revivo', imageUrl: '/client/hotels/revivo.png' },
 ]
 
 export const restaurants = [

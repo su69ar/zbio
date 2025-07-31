@@ -3,7 +3,7 @@ import ZbioVideoText from './ZbioVideoText'
 
 export default function OrbitVideoText() {
   return (
-    <section className='relative py-20 px-4 md:px-8 overflow-hidden bg-gradient-to-b from-white to-[#e6f1ec] dark:from-green-900 dark:to-[#3A5B42]'>
+    <section className='relative py-20 px-4 md:px-8 overflow-hidden '>
       {/* Optional overlay SVG pattern */}
       <div
         className='absolute inset-0 pointer-events-none opacity-10'

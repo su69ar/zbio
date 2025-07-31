@@ -35,10 +35,9 @@ export default function Philosophy3Cols() {
           <div className='text-base text-gray-700 dark:text-gray-300 leading-relaxed'>
             <p className='text-[16px]'>
               Through our closed-loop system, we convert waste into animal feed
-              and organic fertilizer, which supports local farms that, in turn,
-              grow fresh, organic produce that comes right back to your kitchen.
-              It's waste that works — for your business, for Bali, and for the
-              planet.
+              and fertilizer, which supports local farms that, in turn, grow
+              fresh, organic produce that comes right back to your kitchen. It's
+              waste that works — for your business, and for the planet.
             </p>
           </div>
         </div>
@@ -62,7 +61,7 @@ export default function Philosophy3Cols() {
           <Animated3DPin
             title='Here’s How We Close the Loop'
             href='#zbio-solution'
-            heading='Turning waste into opportunity, the ZBIO way'
+            heading='Turning waste into opportunity, the ZBIO way.'
             description='Discover how ZBIO is transforming waste into lasting value and creating real, measurable impact.'
             image='/close-the-loop.jpg'
           />

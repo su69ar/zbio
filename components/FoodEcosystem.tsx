@@ -13,20 +13,20 @@ export default function FoodEcosystem() {
       icon: Package,
       title: 'Food Waste Buckets',
       description:
-        'We provide sealed, odor-proof food waste buckets with clean bucket replacement every time we collect',
+        'We provide sealed, odor-proof food waste buckets with clean bucket replacement every time we collect.',
       background: '/supplies.png',
     },
 
     {
       icon: Truck,
-      title: 'Collection',
-      description: 'Guaranteed regular pickup schedule',
+      title: 'Food Waste Collection',
+      description: 'Guaranteed regular pickup schedule.',
       background: '/collection.png',
     },
     {
       icon: Calendar,
       title: 'Impact Report',
-      description: 'Monthly transparent report to showcase your impact',
+      description: 'Monthly transparent report to showcase your impact.',
       background: '/schedule.jpg',
     },
   ]
