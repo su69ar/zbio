@@ -37,10 +37,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   return (
     <div
       id='zbio-solution'
-      className='container dark:bg-neutral-950 font-sans md:px-10 pt-[100px]'
+      className=' dark:bg-neutral-950 font-sans md:px-10 pt-[100px]'
       ref={containerRef}>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16'>
-        <div className='max-w-7xl mx-auto px-4 md:px-8 lg:px-10'>
+      <div className='container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16'>
+        <div className='max-w-7xl  px-4 md:px-8 lg:px-10'>
           <h2 className='text-5xl md:text-7xl font-bold text-[#1f382b]'>
             ZBIO SOLUTION
           </h2>
