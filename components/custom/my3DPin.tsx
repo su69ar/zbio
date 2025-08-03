@@ -4,7 +4,7 @@ import { PinContainer } from '../ui/3d-pin'
 
 interface Animated3DPinProps {
   title: string
-  href: string
+  // href: string
   heading: string
   description: string
   image?: string
@@ -12,14 +12,14 @@ interface Animated3DPinProps {
 
 export function Animated3DPin({
   title,
-  href,
+  // href,
   heading,
   description,
   image,
 }: Animated3DPinProps) {
   return (
     <div className='h-[30rem] w-full flex items-center justify-center'>
-      <PinContainer title={title} href={href}>
+      <PinContainer title={title}>
         <div className='flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]'>
           <h3 className='max-w-xs !pb-6 !m-0 font-semibold text-base text-slate-100 text-[18px]'>
             {heading}

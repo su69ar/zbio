@@ -13,11 +13,11 @@ export default function Philosophy3Cols() {
           <span className='text-[#1F382B] font-medium'>About ZBIO</span>
         </div>
         {/* Top Divider Line */}
-        <div className='mb-8'>
+        {/* <div className='mb-8'>
           <div className='h-1 bg-gray-200 rounded overflow-hidden'>
             <div className='w-24 h-full bg-[#3b5c42]' />
           </div>
-        </div>
+        </div> */}
 
         {/* Two-Column Intro */}
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mb-16'>
@@ -29,7 +29,6 @@ export default function Philosophy3Cols() {
               <span className='text-[#779952] font-bold'>
                 Regenerative Resources
               </span>
-              .
             </h2>
           </div>
           <div className='text-base text-gray-700 dark:text-gray-300 leading-relaxed'>
@@ -37,7 +36,7 @@ export default function Philosophy3Cols() {
               Through our closed-loop system, we convert waste into animal feed
               and fertilizer, which supports local farms that, in turn, grow
               fresh, organic produce that comes right back to your kitchen. It's
-              waste that works — for your business, and for the planet.
+              waste that works — for your business and for the planet.
             </p>
           </div>
         </div>
@@ -46,21 +45,21 @@ export default function Philosophy3Cols() {
         <div className='grid grid-cols-1 md:grid-cols-3 gap-0 mt-[-40px]'>
           <Animated3DPin
             title='Nature Doesn’t Waste'
-            href='#zbio-solution'
+            // href=''
             heading='Everything in nature has a purpose — nothing is left behind.'
             description='Nature creates no waste. Everything is reused, recycled, or repurposed in the cycle of life.'
             image='/nature-doesnt-waste.jpg'
           />
           <Animated3DPin
             title='Neither Should We'
-            href='#zbio-solution'
+            // href=''
             heading='Let’s turn waste into worth, just like nature does.'
             description='We should imitate nature by creating regenerative systems where waste becomes resource.'
             image='/neither.jpg'
           />
           <Animated3DPin
             title='Here’s How We Close the Loop'
-            href='#zbio-solution'
+            // href=''
             heading='Turning waste into opportunity, the ZBIO way.'
             description='Discover how ZBIO is transforming waste into lasting value and creating real, measurable impact.'
             image='/close-the-loop.jpg'

@@ -47,8 +47,8 @@ export function ZbioTimeline() {
           <p className='mb-8 text-[16px] font-normal text-neutral-800  dark:text-neutral-200'>
             Your food waste is processed either on-site, at ZBio’s facility, or
             at our plasma sites. Through natural decomposition and innovative
-            bioconversion, we transform your food waste into high quality animal
-            feed and organic fertilizer.
+            bioconversion, We transform your food waste into climate-positive
+            animal feed and organic fertilizer.
           </p>
           <ProcessCardHover />
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
@@ -75,14 +75,14 @@ export function ZbioTimeline() {
       content: (
         <div>
           <p className='mb-8 text-[16px] font-semibold text-[#3A5B42] md:text-2xl dark:text-neutral-200'>
-            Local farmlands through sustainable agriculture that generate social
-            impact.
+            Local farmlands through sustainable agriculture that generates
+            social impact.
           </p>
           <p className='mb-4 text-[16px] font-normal text-neutral-800  dark:text-neutral-200'>
-            We channel these outputs back to local farmers. The compost restores
-            soil health, reduces reliance on chemical fertilizers, and supports
-            sustainable agriculture that nurtures both the environment and local
-            communities.
+            We channel these outputs back to local farmers. The organic
+            fertilizer restores soil health, reduces reliance on chemical
+            fertilizers, and supports sustainable agriculture that nurtures both
+            the environment and local communities.
           </p>
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
             <div className='aspect-square overflow-hidden rounded-lg shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]'>

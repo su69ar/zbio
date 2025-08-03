@@ -63,10 +63,10 @@ export default function OrbitingProcess() {
 
   return (
     <section className=' bg-transparent backdrop-blur-md overflow-hidden'>
-      <div className='p-10 lg:p-4 text-center'>
+      <div className='p-6 lg:p-10 md:p-10 text-center'>
         <div
           ref={orbitRef}
-          className='relative w-[100vw] max-w-[350px] h-[400px] mx-auto sm:w-[350px] sm:h-[350px]'>
+          className='relative w-[100vw] max-w-[300px] h-[400px] mx-auto sm:w-[350px] sm:h-[350px]'>
           {/* Center circle */}
           <div className='absolute top-1/2 left-1/2 w-24 h-24 bg-[#1F382B] rounded-full flex items-center justify-center transform -translate-x-1/2 -translate-y-1/2 shadow-lg z-10 overflow-hidden'>
             <Image
@@ -82,9 +82,9 @@ export default function OrbitingProcess() {
           {steps.map((step, i) => (
             <div
               key={step.step}
-              className='orbit-item absolute w-32 transform -translate-x-1/2 -translate-y-1/2 '
+              className='orbit-item absolute w-30 h-30 md:w-32 lg:w-32 md:h-32 lg:h-32 transform -translate-x-1/2 -translate-y-1/2 '
               style={{ transition: 'transform 0.3s ease' }}>
-              <div className='bg-white shadow-lg rounded-full border w-32 h-32 border-[#1F382B] backdrop-blur-md p-5 flex flex-col items-center justify-center text-[#1F382B]'>
+              <div className='bg-white shadow-lg rounded-full border w-32 h-32 border-[#1F382B] backdrop-blur-md p-2 flex flex-col items-center justify-center text-[#1F382B]'>
                 <div className='w-10 h-10 flex items-center justify-center bg-[#1F382B] text-white rounded-full mb-2'>
                   {step.icon}
                 </div>

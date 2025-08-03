@@ -21,13 +21,13 @@ export default function FoodEcosystem() {
       icon: Truck,
       title: 'Food Waste Collection',
       description: 'Guaranteed regular pickup schedule.',
-      background: '/collection.png',
+      background: '/food-waste-collection.png',
     },
     {
       icon: Calendar,
       title: 'Impact Report',
       description: 'Monthly transparent report to showcase your impact.',
-      background: '/schedule.jpg',
+      background: '/impact-report.png',
     },
   ]
 

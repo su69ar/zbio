@@ -6,27 +6,29 @@ export default function Benefits() {
   const benefits = [
     {
       icon: '/icon/icon6.png',
-      title: 'Keeps your waste out of landfills',
+      title: 'Enable you to meet ESG targets with real, verifiable data',
     },
     {
       icon: '/icon/icon5.png',
-      title: 'Traces ingredients back to their regenerative source',
+      title: 'Reduce your greenhouse gas emissions (e.g., carbon & methane)',
     },
     {
       icon: '/icon/icon4.png',
-      title: 'Enables you to meet ESG targets with real, verifiable data',
+      title:
+        'Meet regulatory compliance & keep your organic waste out of landfills',
     },
     {
       icon: '/icon/icon3.png',
-      title: 'Supports local farmers and food security',
+      title:
+        'Empower your brand with storytelling that drives customer awareness',
     },
     {
       icon: '/icon/icon2.png',
-      title: 'Reduce your greenhouse gas (carbon and methane) emissions',
+      title: 'Support local farmers and food security',
     },
     {
       icon: '/icon/icon1.png',
-      title: 'Empower your brand with storytelling that drives awareness',
+      title: 'Trace food ingredients back to their regenerative source',
     },
   ]
 
@@ -52,11 +54,11 @@ export default function Benefits() {
           </div>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 '>
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className='bg-[#1F382B] backdrop-blur-md border border-white/40 rounded-2xl p-6 shadow-xl'>
+              className='bg-[#1F382B] backdrop-blur-md border border-white/40 rounded-2xl p-6 shadow-xl min-h-[150px] items-center content-center'>
               <div className='flex items-center space-x-4'>
                 <div className='w-12 h-12 bg-white rounded-full flex items-center justify-center flex-shrink-0'>
                   <Image
