@@ -10,6 +10,6 @@ echo "🏗️ Building Next.js app..."
 pnpm build || { echo "❌ Build gagal"; exit 1; }
 
 echo "🚀 Restarting PM2 process..."
-pm2 restart zbio || { echo "❌ Gagal restart PM2"; exit 1; }
+pm2 restart zco-bio || { echo "❌ Gagal restart PM2"; exit 1; }
 
-echo "✅ Deploy complete! App live at: http://10.10.10.10:3003"
+echo "✅ Deploy complete! App live at: http://10.10.10.10:3010"
