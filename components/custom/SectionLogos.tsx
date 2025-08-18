@@ -19,7 +19,7 @@ const SectionLogos: React.FC<SectionLogosProps> = ({ title, logos }) => {
       </h2>
 
       {/* Kontainer logo dalam grid */}
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 place-items-center'>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8 place-items-center'>
         {logos.map((logo) => (
           <div key={logo.name} className='w-32 flex justify-center'>
             <img

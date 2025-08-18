@@ -1,22 +1,19 @@
-import type { NextApiRequest, NextApiResponse } from 'next'
+import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
-  if (req.method !== 'POST')
-    return res.status(405).json({ message: 'Method not allowed' })
-
-  const { name, email, message } = req.body
+export async function POST(req: Request) {
+  const { name, email, message } = await req.json()
 
   if (!name || !email || !message) {
-    return res.status(400).json({ message: 'All fields are required.' })
+    return NextResponse.json(
+      { message: 'All fields are required.' },
+      { status: 400 }
+    )
   }
 
   try {
     const transporter = nodemailer.createTransport({
-      host: 'smtp.gmail.com', // Atau SMTP lain
+      host: 'smtp.gmail.com',
       port: 587,
       secure: false,
       auth: {
@@ -27,7 +24,7 @@ export default async function handler(
 
     await transporter.sendMail({
       from: `"ZBIO Contact Form" <${process.env.EMAIL_USERNAME}>`,
-      to: process.env.CONTACT_RECEIVER_EMAIL, // Email tujuan
+      to: process.env.CONTACT_RECEIVER_EMAIL,
       subject: `New Message from ${name}`,
       html: `
         <h2>Contact Message</h2>
@@ -38,9 +35,15 @@ export default async function handler(
       `,
     })
 
-    return res.status(200).json({ message: 'Message sent successfully!' })
+    return NextResponse.json(
+      { message: 'Message sent successfully!' },
+      { status: 200 }
+    )
   } catch (error) {
     console.error('Email send failed:', error)
-    return res.status(500).json({ message: 'Failed to send message.' })
+    return NextResponse.json(
+      { message: 'Failed to send message.' },
+      { status: 500 }
+    )
   }
 }
