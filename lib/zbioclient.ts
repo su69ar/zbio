@@ -1,7 +1,7 @@
 export const hotels = [
   { name: 'Amarta', imageUrl: '/client/hotels/amarta.png' },
   { name: 'Kempinski', imageUrl: '/client/hotels/kempinski.png' },
-  { name: 'Grand Mencure', imageUrl: '/client/hotels/grand_mercure.png' },
+  { name: 'Grand Mencure', imageUrl: '/client/hotels/grand_mercure_new.jpeg' },
   {
     name: 'Inter Continental',
     imageUrl: '/client/hotels/intercontinental.png',
